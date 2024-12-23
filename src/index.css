@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  color: rgb(207, 213, 217);
+  background-color: black;
+}
+/* To Remove a ScrollBar from WebPage */
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
